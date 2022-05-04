@@ -1,0 +1,179 @@
+Defaulting to user installation because normal site-packages is not writeable
+Collecting disnake[discord]
+  Cloning https://github.com/EQUENOS/disnake to /tmp/pip-install-zt_x6xgp/disnake_3b9a13609a9d4aea8f34b6d5450fbdf4
+  Running command git clone -q https://github.com/EQUENOS/disnake /tmp/pip-install-zt_x6xgp/disnake_3b9a13609a9d4aea8f34b6d5450fbdf4
+  Resolved https://github.com/EQUENOS/disnake to commit 4d0b6d1a939c70c0128b5db75c85fcd439aa596d
+ERROR: File "setup.py" not found for legacy project disnake[discord] from git+https://github.com/EQUENOS/disnake#egg=disnake[discord].
+WARNING: You are using pip version 21.2.4; however, version 21.3.1 is available.
+You should consider upgrading via the '/usr/bin/python3.7 -m pip install --upgrade pip' command.
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: disnake==2.3.0 in ./.local/lib/python3.9/site-packages (2.3.0)
+Requirement already satisfied: aiohttp<3.9.0,>=3.7.0 in ./.local/lib/python3.9/site-packages (from disnake==2.3.0) (3.8.1)
+Requirement already satisfied: multidict<7.0,>=4.5 in ./.local/lib/python3.9/site-packages (from aiohttp<3.9.0,>=3.7.0->disnake==2.3.0) (5.2.0)
+Requirement already satisfied: async-timeout<5.0,>=4.0.0a3 in ./.local/lib/python3.9/site-packages (from aiohttp<3.9.0,>=3.7.0->disnake==2.3.0) (4.0.2)
+Requirement already satisfied: frozenlist>=1.1.1 in ./.local/lib/python3.9/site-packages (from aiohttp<3.9.0,>=3.7.0->disnake==2.3.0) (1.2.0)
+Requirement already satisfied: yarl<2.0,>=1.0 in ./.local/lib/python3.9/site-packages (from aiohttp<3.9.0,>=3.7.0->disnake==2.3.0) (1.7.2)
+Requirement already satisfied: charset-normalizer<3.0,>=2.0 in ./.local/lib/python3.9/site-packages (from aiohttp<3.9.0,>=3.7.0->disnake==2.3.0) (2.0.10)
+Requirement already satisfied: aiosignal>=1.1.2 in ./.local/lib/python3.9/site-packages (from aiohttp<3.9.0,>=3.7.0->disnake==2.3.0) (1.2.0)
+Requirement already satisfied: attrs>=17.3.0 in ./.local/lib/python3.9/site-packages (from aiohttp<3.9.0,>=3.7.0->disnake==2.3.0) (21.4.0)
+Requirement already satisfied: idna>=2.0 in /usr/lib/python3/dist-packages (from yarl<2.0,>=1.0->aiohttp<3.9.0,>=3.7.0->disnake==2.3.0) (2.6)
+WARNING: You are using pip version 21.2.4; however, version 21.3.1 is available.
+You should consider upgrading via the '/usr/bin/python3.7 -m pip install --upgrade pip' command.
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: python-dotenv==0.18.0 in ./.local/lib/python3.9/site-packages (0.18.0)
+WARNING: You are using pip version 21.2.4; however, version 21.3.1 is available.
+You should consider upgrading via the '/usr/bin/python3.7 -m pip install --upgrade pip' command.
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: aiosqlite==0.17.0 in ./.local/lib/python3.9/site-packages (0.17.0)
+Requirement already satisfied: typing_extensions>=3.7.2 in ./.local/lib/python3.9/site-packages (from aiosqlite==0.17.0) (4.0.1)
+WARNING: You are using pip version 21.2.4; however, version 21.3.1 is available.
+You should consider upgrading via the '/usr/bin/python3.7 -m pip install --upgrade pip' command.
+[Leaderboard] Loaded
+[CharCount] Loaded
+[General] Loaded
+Main DataBase Connected
+Ready!
+[CharCount] Loaded
+934407513888129084
+Test
+923413542303055932
+923413738869116971
+TEST done
+Test
+923413542303055932
+923413738869116971
+TEST done
+Test
+923413542303055932
+923413738869116971
+TEST done
+Test
+923413542303055932
+923413738869116971
+TEST done
+Test
+923413542303055932
+923413738869116971
+TEST done
+Test
+923413542303055932
+923413738869116971
+TEST done
+Test
+923413542303055932
+923413738869116971
+TEST done
+Test
+923413542303055932
+923413738869116971
+TEST done
+Test
+923413542303055932
+923413738869116971
+TEST done
+Test
+923413542303055932
+923413738869116971
+TEST done
+Test
+923413542303055932
+923413738869116971
+TEST done
+Test
+923413542303055932
+923413738869116971
+TEST done
+Test
+923413542303055932
+923413738869116971
+TEST done
+Test
+923413542303055932
+923413738869116971
+TEST done
+Test
+923413542303055932
+923413738869116971
+TEST done
+Test
+923413542303055932
+923413738869116971
+TEST done
+Test
+923413542303055932
+923413738869116971
+TEST done
+Test
+923413542303055932
+923413738869116971
+TEST done
+Test
+923413542303055932
+923413738869116971
+TEST done
+Test
+923413542303055932
+923413738869116971
+TEST done
+Test
+934407513888129084
+Test
+923413542303055932
+923413738869116971
+TEST done
+Test
+934407513888129084
+[CharCount] Loaded
+Test
+934407513888129084
+[CharCount] Loaded
+[CharCount] Loaded
+[CharCount] Loaded
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/minecraft/multicraft/servers/server251005/.local/lib/python3.9/site-packages/disnake/client.py", line 515, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/minecraft/multicraft/servers/server251005/cogs/charcount.py", line 100, in on_message
+    await self.charcountachivements(message, user_check[1] + msg_count, a_list)
+  File "/home/minecraft/multicraft/servers/server251005/cogs/charcount.py", line 125, in charcountachivements
+    await ch.send(f"||{message.author.mention}|| \n**Achievement Unlocked**- *Reached {a} Characters*")
+  File "/home/minecraft/multicraft/servers/server251005/.local/lib/python3.9/site-packages/disnake/abc.py", line 1439, in send
+    data = await state.http.send_message(
+  File "/home/minecraft/multicraft/servers/server251005/.local/lib/python3.9/site-packages/disnake/http.py", line 391, in request
+    raise Forbidden(response, data)
+disnake.errors.Forbidden: 403 Forbidden (error code: 50001): Missing Access
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/minecraft/multicraft/servers/server251005/.local/lib/python3.9/site-packages/disnake/client.py", line 515, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/minecraft/multicraft/servers/server251005/cogs/charcount.py", line 101, in on_message
+    await self.onetimeachivements(message, a_list)
+  File "/home/minecraft/multicraft/servers/server251005/cogs/charcount.py", line 150, in onetimeachivements
+    await ch.send(f"||{message.author.mention}|| \n**Achievement Unlocked**- *Howdy partner*")
+  File "/home/minecraft/multicraft/servers/server251005/.local/lib/python3.9/site-packages/disnake/abc.py", line 1439, in send
+    data = await state.http.send_message(
+  File "/home/minecraft/multicraft/servers/server251005/.local/lib/python3.9/site-packages/disnake/http.py", line 391, in request
+    raise Forbidden(response, data)
+disnake.errors.Forbidden: 403 Forbidden (error code: 50001): Missing Access
+[CharCount] Loaded
+TEST
+[CharCount] Loaded
+[CharCount] Loaded
+[CharCount] Loaded
+Ignoring exception in command None:
+disnake.ext.commands.errors.CommandNotFound: Command "addchannel" is not found
+Ignoring exception in command None:
+disnake.ext.commands.errors.CommandNotFound: Command ".-" is not found
+Ignoring exception in command None:
+disnake.ext.commands.errors.CommandNotFound: Command "^" is not found
+[CharCount] Loaded
+[CharCount] Loaded
+[CharCount] Loaded
+Ignoring exception in command None:
+disnake.ext.commands.errors.CommandNotFound: Command "wobles" is not found
+Ignoring exception in command None:
+disnake.ext.commands.errors.CommandNotFound: Command ".-" is not found
+Ignoring exception in command None:
+disnake.ext.commands.errors.CommandNotFound: Command ".-" is not found
+Ignoring exception in command None:
+disnake.ext.commands.errors.CommandNotFound: Command "munches" is not found

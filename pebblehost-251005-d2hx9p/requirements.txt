@@ -1,0 +1,4 @@
+git+https://github.com/EQUENOS/disnake#egg=disnake[discord]
+disnake==2.4.0
+python-dotenv==0.18.0
+aiosqlite==0.17.0

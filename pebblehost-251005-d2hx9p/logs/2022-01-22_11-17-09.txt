@@ -1,0 +1,55 @@
+Defaulting to user installation because normal site-packages is not writeable
+Collecting disnake[discord]
+  Cloning https://github.com/EQUENOS/disnake to /tmp/pip-install-7887eadw/disnake_d34c131a17b4420b99b33dabf1ef21be
+  Running command git clone -q https://github.com/EQUENOS/disnake /tmp/pip-install-7887eadw/disnake_d34c131a17b4420b99b33dabf1ef21be
+  Resolved https://github.com/EQUENOS/disnake to commit 4d0b6d1a939c70c0128b5db75c85fcd439aa596d
+ERROR: File "setup.py" not found for legacy project disnake[discord] from git+https://github.com/EQUENOS/disnake#egg=disnake[discord].
+WARNING: You are using pip version 21.2.4; however, version 21.3.1 is available.
+You should consider upgrading via the '/usr/bin/python3.7 -m pip install --upgrade pip' command.
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: disnake==2.3.0 in ./.local/lib/python3.9/site-packages (2.3.0)
+Requirement already satisfied: aiohttp<3.9.0,>=3.7.0 in ./.local/lib/python3.9/site-packages (from disnake==2.3.0) (3.8.1)
+Requirement already satisfied: aiosignal>=1.1.2 in ./.local/lib/python3.9/site-packages (from aiohttp<3.9.0,>=3.7.0->disnake==2.3.0) (1.2.0)
+Requirement already satisfied: frozenlist>=1.1.1 in ./.local/lib/python3.9/site-packages (from aiohttp<3.9.0,>=3.7.0->disnake==2.3.0) (1.2.0)
+Requirement already satisfied: charset-normalizer<3.0,>=2.0 in ./.local/lib/python3.9/site-packages (from aiohttp<3.9.0,>=3.7.0->disnake==2.3.0) (2.0.10)
+Requirement already satisfied: async-timeout<5.0,>=4.0.0a3 in ./.local/lib/python3.9/site-packages (from aiohttp<3.9.0,>=3.7.0->disnake==2.3.0) (4.0.2)
+Requirement already satisfied: attrs>=17.3.0 in ./.local/lib/python3.9/site-packages (from aiohttp<3.9.0,>=3.7.0->disnake==2.3.0) (21.4.0)
+Requirement already satisfied: yarl<2.0,>=1.0 in ./.local/lib/python3.9/site-packages (from aiohttp<3.9.0,>=3.7.0->disnake==2.3.0) (1.7.2)
+Requirement already satisfied: multidict<7.0,>=4.5 in ./.local/lib/python3.9/site-packages (from aiohttp<3.9.0,>=3.7.0->disnake==2.3.0) (5.2.0)
+Requirement already satisfied: idna>=2.0 in /usr/lib/python3/dist-packages (from yarl<2.0,>=1.0->aiohttp<3.9.0,>=3.7.0->disnake==2.3.0) (2.6)
+WARNING: You are using pip version 21.2.4; however, version 21.3.1 is available.
+You should consider upgrading via the '/usr/bin/python3.7 -m pip install --upgrade pip' command.
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: python-dotenv==0.18.0 in ./.local/lib/python3.9/site-packages (0.18.0)
+WARNING: You are using pip version 21.2.4; however, version 21.3.1 is available.
+You should consider upgrading via the '/usr/bin/python3.7 -m pip install --upgrade pip' command.
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: aiosqlite==0.17.0 in ./.local/lib/python3.9/site-packages (0.17.0)
+Requirement already satisfied: typing_extensions>=3.7.2 in ./.local/lib/python3.9/site-packages (from aiosqlite==0.17.0) (4.0.1)
+WARNING: You are using pip version 21.2.4; however, version 21.3.1 is available.
+You should consider upgrading via the '/usr/bin/python3.7 -m pip install --upgrade pip' command.
+[Leaderboard] Loaded
+[CharCount] Loaded
+[General] Loaded
+Main DataBase Connected
+Ready!
+Ignoring exception in slash command 'leaderboard':
+Traceback (most recent call last):
+  File "/home/minecraft/multicraft/servers/server251005/.local/lib/python3.9/site-packages/disnake/ext/commands/slash_core.py", line 585, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+  File "/home/minecraft/multicraft/servers/server251005/.local/lib/python3.9/site-packages/disnake/ext/commands/params.py", line 678, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+  File "/home/minecraft/multicraft/servers/server251005/.local/lib/python3.9/site-packages/disnake/utils.py", line 555, in maybe_coroutine
+    return await value
+  File "/home/minecraft/multicraft/servers/server251005/cogs/leaderboard.py", line 34, in leaderboard
+    char = users_data[1]
+IndexError: list index out of range
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/minecraft/multicraft/servers/server251005/.local/lib/python3.9/site-packages/disnake/ext/commands/interaction_bot_base.py", line 1346, in process_application_commands
+    await app_command.invoke(interaction)
+  File "/home/minecraft/multicraft/servers/server251005/.local/lib/python3.9/site-packages/disnake/ext/commands/slash_core.py", line 594, in invoke
+    raise CommandInvokeError(exc) from exc
+disnake.ext.commands.errors.CommandInvokeError: Command raised an exception: IndexError: list index out of range
